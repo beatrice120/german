@@ -320,6 +320,27 @@ img {
   }
   .about .about-content{
       
-  }
+      flex:0 0 100%;
+      -ms-flex: 0 0 100%;
+      max-width: 100%;
 
+
+      
+  }
+  .about .about-content .about-text{
+    
+       flex:0 0 100%;
+      -ms-flex: 0 0 100%;
+      max-width: 100%;
+      
+}
+.about .about-content .about-text h3{
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #302e4d;
+
+
+
+}
 /*Home */
